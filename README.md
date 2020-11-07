@@ -1,14 +1,14 @@
 # UnityMMO
-很多东西不好在工作项目上尝试(比如 ECS),所以就有了本项目,我打算利用业余时间从头制作一个 3D-MMO 游戏,大部分功能虽然都多少接触过,但我想换个做法,不然就不好玩了.前端的玩法系统用 c#,界面用 lua 开发.后端用 skynet.  
-详细的设计和进度见：[Wiki](https://github.com/liuhaopen/UnityMMO/wiki "Wiki")  
+There are a lot of things that are not good to try on a work project (such as ECS), so there is this project, I plan to use my spare time to make a 3D-MMO game from scratch, although most of the functions have been more or less touched, but I want to change the approach, otherwise it will not be fun. The front end of the gameplay system with c#, the interface with lua development. The back end is skynet.
+detailed design and progress see：[Wiki](https://github.com/liuhaopen/UnityMMO/wiki "Wiki")  
 
 # Usage
-克隆本项目: git clone https://github.com/liuhaopen/UnityMMO.git --recurse  
-前端:  
-下载下来后整个目录就是 Unity 的项目目录,用 Unity 打开,运行 main.unity 场景即可进入游戏的登录界面  
-注:由于游戏资源过大且经常变更(每个版本的资源都会保存在 .git 文件夹里, clone 就要好久了),所以放到另外的项目管理,可在 [UnityMMO-Resource](https://github.com/liuhaopen/UnityMMO-Resource/tree/master/Assets/AssetBundleRes "UnityMMO-Resource") 下载里面的文件并把 Assets/AssetBundleRes 及其 meta 文件复制到本项目的 Assets 目录里(注:有些插件因为版权问题就没上传了,从其中的 download-page 见购买链接)  
-后端:  
-参考项目：[SkynetMMO](https://github.com/liuhaopen/SkynetMMO "SkynetMMO")  
+The Clonebook Project: git clone https://github.com/liuhaopen/UnityMMO.git --recurse  
+front end:  
+After downloading it, the whole directory is the Unity project directory, open it with Unity, run main.unity to enter the login interface of the game.  
+Note: Because the game resources are too big and change frequently (each version of the resources will be saved in the .git folder, clone will take a long time), so put it in another project, you can find it in [UnityMMO-Resource](https://github.com/liuhaopen/UnityMMO- Resource/tree/master/Assets/AssetBundleRes "UnityMMO-Resource") Download the files and copy Assets/AssetBundleRes and its meta files to the Assets directory of the project (Note: Some plugins are not uploaded because of copyright issues, see the buy link for download-page). plug-ins were not uploaded due to copyright issues, from which the download-page see the purchase link).  
+Backend :  
+Reference Projects：[SkynetMMO](https://github.com/liuhaopen/SkynetMMO "SkynetMMO")  
 
 # Status & Prerequisites
 ```
